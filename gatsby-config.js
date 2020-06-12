@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: ` Antoine Duvauchelle • Développeur Freelance Ruby on Rails | React`,
+    description: `Réalisez vos projets web front-end ou full-stack en Ruby on Rails et React avec un freelance à Paris.`,
+    author: `@alberror`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
