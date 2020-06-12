@@ -7,13 +7,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    {
       resolve: "gatsby-source-graphql",
       options: {
         typeName: "GraphCMS",
@@ -26,10 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `Montserrat`,
-          `source sans pro\:100,400,700`, // you can also specify font weights and styles
-        ],
+        fonts: [`Montserrat`, `source sans pro\:100,400,700`],
         display: "swap",
       },
     },
@@ -46,8 +36,5 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
