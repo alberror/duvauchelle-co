@@ -1,0 +1,48 @@
+.contact-page-container {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: calc(100vh - 200px);
+}
+
+.contact-page-content {
+  margin: 0 auto;
+  width: 70vw;
+}
+
+.contact-page-content h1 {
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50vw;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border-radius: 8px;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.contact-form input {
+  font-size: 16px;
+  min-height: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .contact-page-content {
+    padding-top: 1rem;
+    width: 90vw;
+  }
+
+  .contact-form {
+    width: auto;
+  }
+
+  .contact-form textarea {
+    height: 40px;
+  }
+}

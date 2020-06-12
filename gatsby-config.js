@@ -20,6 +20,17 @@ module.exports = {
         fieldName: "cms",
         url:
           "https://api-eu-central-1.graphcms.com/v2/ckb9rcmre0b3i01xn2la92dkx/master",
+        refetchInterval: 60,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Montserrat`,
+          `source sans pro\:100,400,700`, // you can also specify font weights and styles
+        ],
+        display: "swap",
       },
     },
     `gatsby-transformer-sharp`,
@@ -27,13 +38,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `antoine duvauchelle`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

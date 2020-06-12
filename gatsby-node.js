@@ -20,7 +20,6 @@ exports.createPages = async ({ actions, graphql }) => {
     }
   `)
 
-  console.log(data)
   data.cms.projects.forEach(({ id }) => {
     actions.createPage({
       path: `/projects/${id}`,

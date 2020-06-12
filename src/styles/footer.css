@@ -1,0 +1,32 @@
+footer {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  padding-left: 1rem;
+}
+
+footer a {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+  footer {
+    height: auto;
+    padding: 2rem 0 !important;
+    flex-direction: column;
+  }
+
+  footer span:last-child {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  footer a {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}

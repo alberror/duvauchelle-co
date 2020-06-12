@@ -1,0 +1,151 @@
+.projects-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-content h2 {
+  font-size: 32px;
+  margin: 1rem 0 3rem 0;
+}
+
+.home-project-card {
+  position: relative;
+}
+
+.home-project-card p {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  bottom: 0rem;
+  color: white;
+  font-size: 16px;
+  left: 0rem;
+  margin-bottom: 0;
+  padding: 1rem 0.5rem;
+  position: absolute;
+  right: 0;
+}
+
+#header {
+  color: white;
+  text-align: center;
+}
+
+.home-avatar {
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  height: 200px;
+  margin: 3rem auto;
+  width: 200px;
+}
+
+.home-avatar:hover {
+  transform: scale(0.99);
+}
+
+.home-profile-content {
+  font-size: 18px;
+}
+
+.home-profile-options {
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.home-profile-options>div {
+  margin: 0 0.5rem;
+}
+
+.home-profile-options>div:last-child {
+  border: 2px solid greenyellow;
+  border-radius: 4px;
+  color: greenyellow;
+  padding: 0.4rem;
+}
+
+.home-project-card {
+  height: 140px;
+  width: 220px;
+}
+
+.home-project-card img {
+  border-radius: 8px;
+  height: 140px;
+  width: 220px;
+  object-fit: cover;
+}
+
+.first-project-card {
+  height: 440px;
+  margin-bottom: 1rem;
+  width: 720px;
+}
+
+.first-project-card img {
+  border-radius: 8px;
+  height: 440px;
+  width: 720px;
+  object-fit: cover;
+}
+
+.small-projects-list {
+  display: flex;
+  justify-content: space-between;
+  width: 720px;
+}
+
+.home-tags-list {
+  justify-content: center;
+  margin: 3rem auto;
+  padding-left: 0 !important;
+}
+
+@media screen and (max-width: 400px) {
+  .home-profile-options {
+    align-items: space-between;
+    flex-direction: column;
+    min-height: 100px;
+  }
+
+  .first-project-card,
+  .home-project-card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 1rem;
+    min-height: 260px;
+    width: 360px;
+  }
+
+  .first-project-card p,
+  .home-project-card p {
+    margin-top: 0;
+    padding: 1rem 0.5rem;
+    position: relative;
+    width: 344px;
+  }
+
+  .hidden {
+    display: block !important;
+  }
+
+  .first-project-card img,
+  .home-project-card img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 220px;
+    width: 360px;
+  }
+
+  .small-projects-list {
+    flex-direction: column;
+    width: 360px;
+  }
+}
