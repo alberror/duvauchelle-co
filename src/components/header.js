@@ -1,11 +1,12 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import logo from "../images/logo-small.png"
 
 const Header = ({ color, siteTitle }) => (
   <header className={`${color}-bg`}>
     <Link to="/">
-      <img src="/logo-small.png" alt={siteTitle} />
+      <img src={logo} alt={siteTitle} />
     </Link>
     <ul className="nav">
       <li>

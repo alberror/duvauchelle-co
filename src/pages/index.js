@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import avatar from "../images/avatar-antoine.png"
 
 const tags = [
   "front-end",
@@ -63,11 +64,7 @@ const IndexPage = ({ data }) => (
     <SEO title="Accueil" />
     <div id="header" className="section aquamarine-bg">
       <div className="section-content">
-        <img
-          src="/icons/avatar-antoine.png"
-          className="home-avatar"
-          alt="Antoine Duvauchelle"
-        />
+        <img src={avatar} className="home-avatar" alt="Antoine Duvauchelle" />
         <h1>Antoine Duvauchelle</h1>
         <h2>
           Stratégie produit & Développeur Ruby on Rails • React.js Freelance à
