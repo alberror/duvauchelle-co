@@ -1,27 +1,27 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "duvauchelle-co",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Développeur fullstack Ruby on Rails | React.js",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Antoine Duvauchelle <antoine@duvauchelle.co>",
   "dependencies": {
-    "gatsby": "^2.22.15",
-    "gatsby-image": "^2.4.5",
+    "gatsby": "^2.24.82",
+    "gatsby-image": "^2.4.21",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-manifest": "^2.4.9",
-    "gatsby-plugin-offline": "^3.2.7",
-    "gatsby-plugin-react-helmet": "^3.3.2",
-    "gatsby-plugin-sharp": "^2.6.9",
-    "gatsby-source-filesystem": "^2.3.8",
-    "gatsby-source-graphql": "^2.5.4",
-    "gatsby-transformer-sharp": "^2.5.3",
+    "gatsby-plugin-manifest": "^2.4.35",
+    "gatsby-plugin-offline": "^3.2.34",
+    "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-sharp": "^2.6.43",
+    "gatsby-source-filesystem": "^2.3.35",
+    "gatsby-source-graphql": "^2.7.6",
+    "gatsby-transformer-sharp": "^2.5.18",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^6.0.0"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "prettier": "2.1.2"
   },
   "keywords": [
     "gatsby"
